@@ -16,10 +16,10 @@ namespace BukkMaraton2019
         public string Ido {  get; set; }
         public Versenytav(string rajtszam,string kategoria, string nev, string egyesulet, string ido) 
         {
-            Rajtszam = rajtszam;
-            Kategoria = kategoria;
-            Nev = nev;
-            Egyesulet = egyesulet;
+            Rajtszam = rajtszam.Trim();
+            Kategoria = kategoria.Trim();
+            Nev = nev.Trim();
+            Egyesulet = egyesulet.Trim();
             Ido = ido;
 
         }
@@ -79,6 +79,12 @@ namespace BukkMaraton2019
                 }
                 else { throw new FormatException(); }
             }
+        }
+
+        public bool FelnottFerfi()
+        {
+            return Kategoria.Trim() == "ff" ? true : false;
+            
         }
     }
 }
