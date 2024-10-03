@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QOS64simF40=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kenyo\\source\\repos\\BukkMaraton2019\\BukkMaraton2019.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kenyo\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.7\\microsoft.dotnet.ilcompiler.8.0.7.nupkg.sha512",
+    "C:\\Users\\kenyo\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.7\\microsoft.net.illink.tasks.8.0.7.nupkg.sha512",
+    "C:\\Users\\kenyo\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.7\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

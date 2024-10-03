@@ -1,0 +1,14 @@
+C:\Users\kenyo\source\repos\BukkMaraton2019\bin\Debug\net8.0\BukkMaraton2019.exe
+C:\Users\kenyo\source\repos\BukkMaraton2019\bin\Debug\net8.0\BukkMaraton2019.deps.json
+C:\Users\kenyo\source\repos\BukkMaraton2019\bin\Debug\net8.0\BukkMaraton2019.runtimeconfig.json
+C:\Users\kenyo\source\repos\BukkMaraton2019\bin\Debug\net8.0\BukkMaraton2019.dll
+C:\Users\kenyo\source\repos\BukkMaraton2019\bin\Debug\net8.0\BukkMaraton2019.pdb
+C:\Users\kenyo\source\repos\BukkMaraton2019\obj\Debug\net8.0\BukkMaraton2019.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenyo\source\repos\BukkMaraton2019\obj\Debug\net8.0\BukkMaraton2019.AssemblyInfoInputs.cache
+C:\Users\kenyo\source\repos\BukkMaraton2019\obj\Debug\net8.0\BukkMaraton2019.AssemblyInfo.cs
+C:\Users\kenyo\source\repos\BukkMaraton2019\obj\Debug\net8.0\BukkMaraton2019.csproj.CoreCompileInputs.cache
+C:\Users\kenyo\source\repos\BukkMaraton2019\obj\Debug\net8.0\BukkMaraton2019.dll
+C:\Users\kenyo\source\repos\BukkMaraton2019\obj\Debug\net8.0\refint\BukkMaraton2019.dll
+C:\Users\kenyo\source\repos\BukkMaraton2019\obj\Debug\net8.0\BukkMaraton2019.pdb
+C:\Users\kenyo\source\repos\BukkMaraton2019\obj\Debug\net8.0\BukkMaraton2019.genruntimeconfig.cache
+C:\Users\kenyo\source\repos\BukkMaraton2019\obj\Debug\net8.0\ref\BukkMaraton2019.dll
