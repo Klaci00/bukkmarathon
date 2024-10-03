@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -50,23 +51,34 @@ namespace BukkMaraton2019
 
         public static int Getseconds(string time)
         {
-            string[] parts=time.Split(':');
-            foreach (string part in parts)
+            if (time == "Nem teljesítő") { return 0; }
+            else
             {
-                foreach (char s in part)
+                string[] parts = time.Split(':');
+                foreach (string part in parts)
                 {
-                    if (s != 0) break;
-                    else part.Remove(s);
+                    foreach (char s in part)
+                    {
+                        if (s != 0) break;
+                        else part.Remove(s);
 
+                    }
                 }
-            }
-            Console.WriteLine(parts);
-            int hours = Convert.ToInt32( parts[0]);
-            int minutes = Convert.ToInt32( parts[1]);
-            int seconds = Convert.ToInt32( parts[2]);
 
-            int totalSeconds=hours*3600+minutes*60+seconds;
-            return totalSeconds;
+                bool a, b, c;
+                int hours, minutes, seconds, totalSeconds;
+
+                a = int.TryParse(parts[0], out hours);
+                b = int.TryParse(parts[1], out minutes);
+                c = int.TryParse(parts[2], out seconds);
+
+                if (a && b && c)
+                {
+                    totalSeconds = hours * 3600 + minutes * 60 + seconds;
+                    return totalSeconds;
+                }
+                else { throw new FormatException(); }
+            }
         }
     }
 }

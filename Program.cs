@@ -44,3 +44,15 @@ Console.WriteLine("5-ös feladat");
 int femaleShort = adatok.Count(x=>x.Nem()=="Nő" && x.Tav()=="Rövidtáv");
 
 Console.WriteLine($"A rövidtávon induló nők létszáma: {femaleShort}");
+
+Console.WriteLine("7-es feladat");
+
+foreach (Versenytav versenytav in adatok)
+{
+    if (Versenytav.Getseconds(versenytav.Ido) < (3600 * 6))
+    {
+        Console.WriteLine("Volt olyan versenyző, aki több mint hat órát töltött a versenypályán.");
+        break;
+    }
+    else Console.WriteLine("Nem volt olyan versenyző, aki több mint hat órát töltött a versenypályán.");
+}
