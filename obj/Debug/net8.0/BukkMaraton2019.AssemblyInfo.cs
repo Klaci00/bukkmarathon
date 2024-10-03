@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BukkMaraton2019")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+479a415308b33a924cd06b99b9801a515393639d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+515ba2894ce9d33f84855d3cfa87a091dee68763")]
 [assembly: System.Reflection.AssemblyProductAttribute("BukkMaraton2019")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BukkMaraton2019")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

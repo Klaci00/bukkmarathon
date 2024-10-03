@@ -27,7 +27,6 @@ while ((line = reader.ReadLine()) != null)
     if (kategoria!="Kategória "){
         Versenytav versenytav = new(rajtszam:rajtszam,kategoria: kategoria,nev:nev,egyesulet:egyesulet,ido:ido);
         adatok.Add(versenytav);
-        Console.WriteLine(versenytav.FelnottFerfi());
     }
 }
 
@@ -72,3 +71,24 @@ Console.WriteLine($"A győztes {winner.Nev}, rajtszáma: {winner.Rajtszam}, {win
 if (winner.Kategoria.Length == 0)
 { Console.WriteLine("Nem tagja egyesületnek."); }
 else Console.WriteLine($"Egyesülete: {winner.Egyesulet}");
+
+Console.WriteLine("--------------------------------------------------");
+Console.WriteLine("8-as feladat");
+
+var befutottferfiak = adatok.Where(x => x.Ido != "Nem teljesítő" && x.Nem() == "Férfi");
+
+List<string> kategoriak = new List<string>();
+
+foreach (var versenyzo in adatok)
+{
+    if (!kategoriak.Contains(versenyzo.Kategoria) && versenyzo.Kategoria.EndsWith('f'))
+    {
+        kategoriak.Add(versenyzo.Kategoria);
+    }
+}
+
+    foreach (string kategoria in kategoriak)
+    { 
+        int count = befutottferfiak.Count(x=>x.Kategoria==kategoria);
+        Console.WriteLine($"A befutott férfiak száma a {kategoria} kategóriában: {count}");
+    }
