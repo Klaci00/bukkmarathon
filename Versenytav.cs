@@ -59,6 +59,10 @@ namespace BukkMaraton2019
                 {
                     foreach (char s in part)
                     {
+                        if (part.Length > 2)
+                        {
+                            throw new FormatException();
+                        }
                         if (s != 0) break;
                         else part.Remove(s);
 

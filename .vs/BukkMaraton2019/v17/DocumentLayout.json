@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kenyo\\source\\repos\\BukkMaraton2019\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C56EC46-A4D6-4C97-ABE5-9063B1A58D09}|BukkMaraton2019.csproj|c:\\users\\kenyo\\source\\repos\\bukkmaraton2019\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C56EC46-A4D6-4C97-ABE5-9063B1A58D09}|BukkMaraton2019.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C56EC46-A4D6-4C97-ABE5-9063B1A58D09}|BukkMaraton2019.csproj|c:\\users\\kenyo\\source\\repos\\bukkmaraton2019\\versenytav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C56EC46-A4D6-4C97-ABE5-9063B1A58D09}|BukkMaraton2019.csproj|solutionrelative:versenytav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C56EC46-A4D6-4C97-ABE5-9063B1A58D09}|BukkMaraton2019.csproj|c:\\users\\kenyo\\source\\repos\\bukkmaraton2019\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C56EC46-A4D6-4C97-ABE5-9063B1A58D09}|BukkMaraton2019.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kenyo\\source\\repos\\BukkMaraton2019\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -35,25 +35,25 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Versenytav.cs",
+              "DocumentMoniker": "C:\\Users\\kenyo\\source\\repos\\BukkMaraton2019\\Versenytav.cs",
+              "RelativeDocumentMoniker": "Versenytav.cs",
+              "ToolTip": "C:\\Users\\kenyo\\source\\repos\\BukkMaraton2019\\Versenytav.cs",
+              "RelativeToolTip": "Versenytav.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAuwEUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T19:39:26.377Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Versenytav.cs",
-              "DocumentMoniker": "C:\\Users\\kenyo\\source\\repos\\BukkMaraton2019\\Versenytav.cs",
-              "RelativeDocumentMoniker": "Versenytav.cs",
-              "ToolTip": "C:\\Users\\kenyo\\source\\repos\\BukkMaraton2019\\Versenytav.cs",
-              "RelativeToolTip": "Versenytav.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAwwBYAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T19:39:26.377Z",
-              "EditorCaption": ""
             }
           ]
         }
